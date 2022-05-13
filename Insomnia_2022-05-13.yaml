@@ -1,0 +1,72 @@
+_type: export
+__export_format: 4
+__export_date: 2022-05-13T09:35:20.347Z
+__export_source: insomnia.desktop.app:v2022.4.0-beta.1
+resources:
+  - _id: req_2538cbaa7c814741b9d7eea523d75574
+    parentId: wrk_859fa4b7d9074cafb7886795c455fe86
+    modified: 1652434506364
+    created: 1652433432416
+    url: mockbin.org/request/anything
+    name: My Request
+    description: ""
+    method: GET
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"test":123
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_38e5f7e046614f54b66775d6e935cf0c
+      - id: pair_fe349cc53dec434f8013c61a32793b3d
+        name: Accept-Language
+        value: en
+        description: ""
+    authentication: {}
+    metaSortKey: -1652433432416
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_859fa4b7d9074cafb7886795c455fe86
+    parentId: null
+    modified: 1652433428775
+    created: 1652433428775
+    name: issue-4773
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: env_ef22981bb23c4197a9fd3f5255c02a982e67d287
+    parentId: wrk_859fa4b7d9074cafb7886795c455fe86
+    modified: 1652433428785
+    created: 1652433428785
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1652433428785
+    _type: environment
+  - _id: jar_ef22981bb23c4197a9fd3f5255c02a982e67d287
+    parentId: wrk_859fa4b7d9074cafb7886795c455fe86
+    modified: 1652433428786
+    created: 1652433428786
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_35c9276f03f048678e7fd54b98d8905c
+    parentId: wrk_859fa4b7d9074cafb7886795c455fe86
+    modified: 1652433428780
+    created: 1652433428780
+    fileName: issue-4773
+    contents: ""
+    contentType: yaml
+    _type: api_spec
